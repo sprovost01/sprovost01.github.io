@@ -1,0 +1,93 @@
+@charset 'UTF-8';
+
+html,
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 1vw;
+  background: white;
+}
+
+header {
+  position: fixed;
+  padding: 2em;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background:rgba(22,200,114,1.00);
+}
+nav {
+  z-index: 400;
+  top: 0;
+  left: 0;
+  opacity: .95;
+  background: #fff;
+  position: relative;
+  display: block !important;
+  float: right;
+  width: 30%;
+  padding: .75em 1em 0 0;
+  height: 1.5em;
+}
+.splash {
+  position: relative;
+  height: 54vw;
+  background-color: #a2f92f;
+}
+.intro {
+  position: relative;
+  color: #343144;
+  background: #0F3C97;
+  height: 30vw;
+  padding: 9em 6em 5em;
+}
+
+.travaux {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.travail {
+  display: flex;
+  margint-top:10px;
+}
+
+.travail .oeuvre {
+  padding: 8% 0 8% 23.5%;
+  background-image:-moz-linear-gradient( 135deg, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
+  background-image: -webkit-linear-gradient( 135deg, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
+  background-image: -ms-linear-gradient( 135deg, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
+  width: 50%;
+}
+.travail figure {
+  position: relative;
+  vertical-align: middle;
+  padding: 50% 10%;
+  background: #cef0f2;
+}
+.travail .travail-description {
+  background: #26223e;
+  width: 50%;
+  padding: 11.25em 10em 11.5em;
+}
+
+footer {
+  margin-top: -3em;
+  padding: 8.75em 0 2em;
+  height: 10vw;
+  background-image:-moz-linear-gradient( -45deg, rgb(128,255,91) 0%, rgb(98,85,255) 100%);
+  background-image: -webkit-linear-gradient( -45deg, rgb(128,255,91) 0%, rgb(98,85,255) 100%);
+  background-image: -ms-linear-gradient( -45deg, rgb(128,255,91) 0%, rgb(98,85,255) 100%);
+}
+
+.imageintro {
+	display: block;
+	margin: 0 auto;
+}
