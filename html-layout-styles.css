@@ -49,7 +49,7 @@ figcaption {
 .intro {
   position: relative;
   color: #343144;
-  background: #0F3C97;
+  background: white;
   height: 30vw;
   padding: 9em 6em 5em;
 }
@@ -73,7 +73,7 @@ figcaption {
   position: relative;
   vertical-align: middle;
   padding: 50% 10%;
-  background: #cef0f2;
+  background: white;
 }
 .travail .travail-description {
   background: white;
