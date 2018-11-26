@@ -10,7 +10,7 @@ html * {
 body {
   font-family: arial, sans-serif;
   font-size: 1vw;
-  background: white;
+  background: white;  
 }
 
 header {
@@ -35,6 +35,12 @@ nav {
   padding: .75em 1em 0 0;
   height: 1.5em;
 }
+figcaption {
+  font-family: arial, sans-serif;
+  font-size: 1vw;
+  background: white;  
+}
+	
 .splash {
   position: relative;
   height: 54vw;
