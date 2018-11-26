@@ -20,7 +20,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background:rgba(22,200,114,1.00);
+  background:black;
 }
 nav {
   z-index: 400;
@@ -38,7 +38,7 @@ nav {
 .splash {
   position: relative;
   height: 54vw;
-  background-color: #a2f92f;
+  background-color: black;
 }
 .intro {
   position: relative;
@@ -82,9 +82,7 @@ footer {
   margin-top: -3em;
   padding: 8.75em 0 2em;
   height: 10vw;
-  background-image:-moz-linear-gradient( -45deg, rgb(128,255,91) 0%, rgb(98,85,255) 100%);
-  background-image: -webkit-linear-gradient( -45deg, rgb(128,255,91) 0%, rgb(98,85,255) 100%);
-  background-image: -ms-linear-gradient( -45deg, rgb(128,255,91) 0%, rgb(98,85,255) 100%);
+  background-color: black;
 }
 
 .imageintro {
