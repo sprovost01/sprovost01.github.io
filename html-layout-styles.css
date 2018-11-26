@@ -11,6 +11,7 @@ body {
   font-family: arial, sans-serif;
   font-size: 1vw;
   background: white;  
+  background-color: white;
 }
 
 header {
@@ -21,6 +22,7 @@ header {
   left: 0;
   width: 100%;
   background:white;
+  background-color: white;
 }
 nav {
   z-index: 400;
@@ -44,7 +46,7 @@ figcaption {
 .splash {
   position: relative;
   height: 54vw;
-  background-color: black;
+  background-color: white;
 }
 .intro {
   position: relative;
