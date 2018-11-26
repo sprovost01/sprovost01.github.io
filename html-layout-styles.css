@@ -20,14 +20,14 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background:black;
+  background:white;
 }
 nav {
   z-index: 400;
   top: 0;
   left: 0;
   opacity: .95;
-  background: #fff;
+  background: white;
   position: relative;
   display: block !important;
   float: right;
