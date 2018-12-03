@@ -1,19 +1,8 @@
 @charset 'UTF-8';
 
-body, html {
+body {
     height: 100%;
     margin: 0;
-}
-
-.bg {
-   
-    background-image: url("main1_3000.jpg");
-
-    height: 100%; 
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 
@@ -58,6 +47,14 @@ font-size: 2vw;
   position: relative;
   height: 54vw;
   background-color: white;
+	}
+	
+.bg {
+   background-image: url("main1_3000.jpg");
+   height: 100%; 
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .intro {
   position: relative;
