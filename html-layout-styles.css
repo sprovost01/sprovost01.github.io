@@ -8,15 +8,13 @@ body, html {
 
 
 header {
-  position: fixed;
-  padding: 2em;
-  z-index: 1000;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background:white;
-  background-color: white;
+ position: absolute;
+left: 400px;
+top: 800px;
+font-family: arial, sans-serif;
+font-size: 2vw;
 }
+
 nav {
   z-index: 400;
   top: 0;
