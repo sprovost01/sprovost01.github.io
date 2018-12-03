@@ -10,7 +10,7 @@ body, html {
 header {
  position: absolute;
 left: 400px;
-top: 800px;
+top: 50px;
 font-family: arial, sans-serif;
 font-size: 2vw;
 }
@@ -28,6 +28,7 @@ nav {
   padding: .75em 1em 0 0;
   height: 1.5em;
 }
+
 figcaption {
   font-family: arial, sans-serif;
   font-size: 2vw;
@@ -49,7 +50,7 @@ font-size: 2vw;
 	}
 	
 .bg {
-   background-image: url("main1_3000.jpg");
+   background-image: url("images/main1_3000.jpg");
    height: 100%; 
    background-position: center;
    background-repeat: no-repeat;
