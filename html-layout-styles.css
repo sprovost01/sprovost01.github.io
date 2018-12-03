@@ -27,6 +27,10 @@ nav {
   height: 1.5em;
 }
 
+figure{
+	padding: 0;
+}
+
 figcaption {
   font-family: arial, sans-serif;
   font-size: 2vw;
