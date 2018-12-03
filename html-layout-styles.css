@@ -1,18 +1,21 @@
 @charset 'UTF-8';
 
-html,
-html * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+body, html {
+    height: 100%;
+    margin: 0;
 }
 
-body {
-  font-family: arial, sans-serif;
-  font-size: 1vw;
-  background: white;  
-  background-color: white;
+.bg {
+   
+    background-image: url("main1_3000.jpg");
+
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 header {
   position: fixed;
