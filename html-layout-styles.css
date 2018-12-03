@@ -43,6 +43,14 @@ figcaption {
   background: white;  
 }
 	
+form {
+position: absolute;
+left: 100px;
+top: 150px;
+font-family: arial, sans-serif;
+font-size: 2vw;	
+}
+	
 .splash {
   position: relative;
   height: 54vw;
