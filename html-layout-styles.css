@@ -7,9 +7,6 @@ body, html {
 
 
 figure{
-	position: relative;
-        left: 100px;
-        top: 600px;
 	padding: 0;
 	margin: 0;
 }
