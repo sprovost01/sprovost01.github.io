@@ -12,8 +12,8 @@ figure{
 }
 
 .bg {
-   background-image: url("images/jouedroite2.png");
-   height: 50vw; 
+   background-image: url("images/jouedroite3.png");
+   height: 100vw; 
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -25,33 +25,38 @@ figure{
   font-size: 30px;
   margin-top: 40px;
   padding-top: 0px;
+  padding-left: 30px;
 }
 .formu {
   width: 100%;
   color: white;
   font-size: 30px;
-  margin: 40px;
-  padding: 20px;
+  margin-top: 40px;
+  padding-top: 0px;
+  padding-left: 30px;
 }
 .formul {
   width: 100%;
   color: black;
   font-size: 30px;
-  margin: 40px;
-  padding: 20px;
+  margin-top: 40px;
+  padding-top: 0px;
+  padding-left: 30px;
 }
 .formula {
   width: 100%;
   color: black;
   font-size: 30px;
-  margin: 40px;
-  padding: 20px;
+  margin-top: 40px;
+  padding-top: 0px;
+  padding-left: 30px;
 }
 .formulaire {
   width: 100%;
   color: white;
   font-size: 30px;
-  margin: 40px;
-  padding: 20px;
+  margin-top: 40px;
+  padding-top: 0px;
+  padding-left: 30px;
 }
 	
