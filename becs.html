@@ -5,7 +5,12 @@
     <title>Stephanie Provost</title>
     <link href="html-layout-styles.css" rel="stylesheet" type="text/css">
 </head>
-
+<script>
+    var url_string = window.location.href
+    var url = new URL(url_string);
+    var c = url.searchParams.get("main");
+    console.log(c);
+</script>
 <body>
 
     <!-- Entete -->
