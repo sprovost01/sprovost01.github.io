@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Stephanie Provost</title>
+    <link href="html-layout-styles.css" rel="stylesheet" type="text/css">
+</head>
+<script>
+    var url_string = window.location.href
+    var url = new URL(url_string);
+    var c = url.searchParams.get("main");
+    console.log(c);
+</script>
+<body>
+
+    <!-- Entete -->
+    <header>
+		<h1>Ça tombe bien que tu sois là. J'ai besoin d'une petite tappe dans le dos.</h1>
+	</header>
+    
+
+    <!-- Section principale -->
+    <main>
+    	<section class="intro" style="min-height:700px;">
+    		<figure class="imageintro" style="width: 1024px;">
+ 				<img src="jouegauche.jpg" alt="jouegauche">
+			 <div class="bg">
+	                  <form action="/dos.html" method="get">
+                            <input type="checkbox" name="main" value="Enchanté"> C'est fait.<br>
+                            <input type="submit" value="Envoyer">	    
+                          </form>
+			</div>
+    		</figure>
+    	</section>
+    </main> 
+    <!-- Fin section principale -->
+
+
+    <!-- Pied de page -->
+    <footer>
+    	
+    </footer>
+    
+</body>
+</html>
